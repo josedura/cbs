@@ -132,4 +132,4 @@ It can serve 1000 requests per second.
 
 Though this test is impaired by allways doing the same 4 requests which greatly favours cache locality. But this also reduces parallelism since the bookings can't be done in parallel for the same combination of movie and theater.
 
-Furter testing is required with fully random requests to measure correctly cbs real performance. Performance in a real scenario may be higher or lower depending on whether the cache or the paralellism of bookings has more impact.
+Further testing is required with fully random requests to measure correctly cbs real performance. Performance in a real scenario may be higher or lower depending on whether the cache or the paralellism of bookings has more impact.
