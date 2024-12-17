@@ -1,0 +1,27 @@
+# Doxygen configuration file
+
+# Project name
+PROJECT_NAME = "Cinema Booking System"
+
+# Project version
+PROJECT_NUMBER = "1.00"
+
+# Input source files
+INPUT = . \
+        doxygen_files/
+
+EXCLUDE = test/
+
+FILE_PATTERNS = *.hpp *.md *.cpp
+
+# Output directory
+OUTPUT_DIRECTORY = doc
+
+# Generate HTML documentation
+GENERATE_HTML = YES
+
+# Create a main page for the documentation
+USE_MDFILE_AS_MAINPAGE = doxygen_files/docmain.md
+
+# Other settings
+RECURSIVE = YES

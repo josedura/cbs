@@ -1,0 +1,13 @@
+build/
+*.o
+cbs
+*.d
+doc/
+*.swp
+.swp
+coverage_report/
+test_build/
+*.info
+*.gcno
+*.gcda
+.vscode
